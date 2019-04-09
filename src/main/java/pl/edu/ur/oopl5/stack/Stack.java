@@ -5,20 +5,23 @@ import java.util.EmptyStackException;
 /**
  */
 public class Stack extends AbstractStack {
+ //   private int n;
+    private int[] stack = new int[7];
+    private int index;
 
     @Override
     public void push(int i) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+      
     }
 
     @Override
     public int pop() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
     @Override
     public boolean isEmpty() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+        
     }
 
 }
